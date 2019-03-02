@@ -6,7 +6,7 @@
 - email: hryshuk@tut.by
 - SKYPE: hryshuk_newsite.by
 
-**Summary:** my main goal is to study and progress in the frontend development
+**Summary:** my main goal is to study and progress in the frontend development, learning js frameworks such as ReactJs/Redux, Angular, TypeScript, Node.js
 
 **Skills**
 - PHP7
