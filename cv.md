@@ -17,7 +17,7 @@
 - HTML, CSS, Bootstrap
 - Git
 
-**Experience**: from 2011 to current time
+**Experience**: full-stack development from 2011 to the present time
 
 **Education**: Institute of Continuing Education Belarusian State University, BelHard courses
 
