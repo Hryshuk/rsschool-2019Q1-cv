@@ -15,6 +15,7 @@
 - jQuery
 - BackboneJs
 - HTML, CSS, Bootstrap
+- Git
 
 **Experience**: from 2011 to current time
 
