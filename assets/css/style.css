@@ -18,12 +18,13 @@ Default Styles
     border: 0 none;
 }
 body{
-    font-size: 16px;
-    line-height: 30px;
+    width: 800px;
+    margin: 0 auto 40px;
     background-color: #aaa;
     font-family: "Lato-Regular", sans-serif;
-    margin: 0 auto 40px;
-    width: 800px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #bebebe;
 }
 ul {
     list-style: none;
@@ -34,17 +35,16 @@ Header Styles
 */
 .header {
     width: 100%;
-    background-color: #323232;
-    color: rgba(190, 190, 190, 255);
     padding: 50px 70px 0;
+    background-color: #323232;
 }
 .header h1 {
+    margin: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #bebebe;
     font-family: "MyriadPro-Regular", sans-serif;
     font-size: 40px;
-    text-align: center;
-    border-bottom: 1px solid rgba(190, 190, 190, 255);
-    padding-bottom: 40px;
-    margin: 0px;
+    text-align: center;   
 }
 
 /*
@@ -52,9 +52,8 @@ Main Styles
 */
 .main {
     width: 100%;
-    background-color: #323232;
-    color: rgba(190, 190, 190, 255);
     padding: 20px 70px 60px;
+    background-color: #323232;
 }
 
 /*
@@ -68,14 +67,14 @@ About Me Styles
     float: right;
 }
 .about-me h2 {
-    font-size: 24px;
     margin: 20px 0;
+    font-size: 24px;
 }
 .about-me p{
     margin: 10px 0 0;
 }
 .about-me ul {
-    padding-left: 25px;
     margin: 0 0 10px;
+    padding-left: 25px;
 }
 
