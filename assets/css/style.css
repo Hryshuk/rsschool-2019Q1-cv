@@ -17,14 +17,14 @@ Default Styles
     box-sizing: border-box; 
     border: 0 none;
 }
-body{
+body {
     width: 800px;
     margin: 0 auto 40px;
-    background-color: #aaa;
-    font-family: "Lato-Regular", sans-serif;
+    font-family: "Lato-Regular", "Arial", sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #bebebe;
+    background-color: #aaa;
 }
 ul {
     list-style: none;
@@ -39,12 +39,12 @@ Header Styles
     background-color: #323232;
 }
 .header h1 {
-    margin: 0px;
+    margin: 0;
     padding-bottom: 40px;
-    border-bottom: 1px solid #bebebe;
-    font-family: "MyriadPro-Regular", sans-serif;
+    font-family: "MyriadPro-Regular", "Arial", sans-serif;
     font-size: 40px;
     text-align: center;   
+    border-bottom: 1px solid #bebebe;
 }
 
 /*
@@ -62,15 +62,15 @@ About Me Styles
 .about-me .photo {
     width: 130px;
     height: 130px;
+    float: right;
     background: url("../image/my_photo.jpg") no-repeat transparent;
     background-size: contain;
-    float: right;
 }
 .about-me h2 {
     margin: 20px 0;
     font-size: 24px;
 }
-.about-me p{
+.about-me p {
     margin: 10px 0 0;
 }
 .about-me ul {
