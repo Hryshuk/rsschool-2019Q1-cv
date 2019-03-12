@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Lato-Regular"; 
+    src: url("../font/Lato-Regular.ttf"); 
+}
+@font-face {
+    font-family: "MyriadPro-Regular"; 
+    src: url("../font/MyriadPro-Regular.ttf"); 
+}
+
+/*
+Default Styles
+*/
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    border: 0 none;
+}
+body {
+    width: 800px;
+    margin: 0 auto 40px;
+    font-family: "Lato-Regular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #bebebe;
+    background-color: #aaa;
+}
+ul {
+    list-style: none;
+}
+
+/*
+Header Styles
+*/
+.header {
+    width: 100%;
+    padding: 50px 70px 0;
+    background-color: #323232;
+}
+.header h1 {
+    margin: 0;
+    padding-bottom: 40px;
+    font-family: "MyriadPro-Regular", "Arial", sans-serif;
+    font-size: 40px;
+    text-align: center;   
+    border-bottom: 1px solid #bebebe;
+}
+
+/*
+Main Styles
+*/
+.main {
+    width: 100%;
+    padding: 20px 70px 60px;
+    background-color: #323232;
+}
+
+/*
+About Me Styles
+*/
+.about-me .photo {
+    width: 130px;
+    height: 130px;
+    float: right;
+    background: url("../image/my_photo.jpg") no-repeat transparent;
+    background-size: contain;
+}
+.about-me h2 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+.about-me p {
+    margin: 10px 0 0;
+}
+.about-me ul {
+    margin: 0 0 10px;
+    padding-left: 25px;
+}
+
