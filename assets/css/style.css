@@ -34,7 +34,7 @@ ul {
 
 
 /*
-Main Styles
+Header Styles
 */
 .header {
     width: 100%;
@@ -42,6 +42,18 @@ Main Styles
     color: rgba(190, 190, 190, 255);
     padding: 50px 70px 0;
 }
+.header h1 {
+    font-family: "MyriadPro-Regular", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgba(190, 190, 190, 255);
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+/*
+Main Styles
+*/
 .main {
     width: 100%;
     background-color: #323232;
@@ -50,32 +62,23 @@ Main Styles
 }
 
 /*
-About Styles
+About Me Styles
 */
-.header h1 {
-    /* text-transform: uppercase; */
-    font-family: "MyriadPro-Regular", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    border-bottom: 1px solid rgba(190, 190, 190, 255);
-    padding-bottom: 40px;
-    margin: 0px;
-}
-.about h2 {
-    font-size: 24px;
-}
-.about p{
-    margin: 10px 0 0;
-}
-.about ul {
-    padding-left: 25px;
-    margin: 0 0 10px;
-}
-
-.photo {
+.about-me .photo {
     width: 130px;
     height: 130px;
     background: url("../image/my_photo.jpg") no-repeat transparent;
     background-size: contain;
     float: right;
 }
+.about-me h2 {
+    font-size: 24px;
+}
+.about-me p{
+    margin: 10px 0 0;
+}
+.about-me ul {
+    padding-left: 25px;
+    margin: 0 0 10px;
+}
+
